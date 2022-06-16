@@ -15,7 +15,7 @@ form.addEventListener('submit', e => {
 	}
 
 	if (lastName === '') {
-		addErrorTo('lastname', 'Last Name caanot be empty');
+		addErrorTo('lastname', 'Last Name cannot be empty');
 	} else {
 		removeErrorFrom('lastname');
 	}
